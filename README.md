@@ -12,7 +12,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 php bin/magento cache:clean
 ```
-![Module Logo](app/code/V4U/SalesGrid/docs/ConfigurationSettingsStoresMagentoAdmin.png)
+![Module Logo](app/code/V4U/ColorPicker/docs/ConfigurationSettingsStoresMagentoAdmin.png)
 
 ### Install via zip
 
