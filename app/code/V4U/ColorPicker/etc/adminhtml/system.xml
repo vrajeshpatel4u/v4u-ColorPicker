@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="changecolor" translate="label" sortOrder="1000">
+            <label>Change Color</label>
+        </tab>
+        <section id="changecolor" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Color</label>
+            <tab>changecolor</tab>
+            <resource>ColorPicker_SystemConfigExample::changecolor</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="my_color_option" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Background Color</label>
+                    <comment><![CDATA[Background color]]></comment>
+                    <frontend_model>V4U\ColorPicker\Block\Color</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
